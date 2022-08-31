@@ -1,7 +1,14 @@
 package br.com.java.udemy.classes.metodos;
 
 public class Produtos {
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
+	String nome;
+	double preco;
+	double desconto;
+	
+	double precoComDesconto() {
+		return preco * (1 - desconto);
+	}
+	double precoComDesconto(double descontoGerente) {
+		return preco * (1 - desconto + descontoGerente);
 	}
 }
