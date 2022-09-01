@@ -5,10 +5,7 @@ import java.text.DecimalFormat;
 public class ProdutosTestes {
 
 	public static void main(String[] args) {
-		Produtos p1 = new Produtos();
-		p1.nome = "Notebook Dell G3-15";
-		p1.preco = 5362.32;
-		p1.desconto = 0.25;
+		Produtos p1 = new Produtos("Notebook Dell G3-15",5362.32,0.25);
 		
 		Produtos p2 = new Produtos();
 		p2.nome = "Notebook LeNovo Tinkpad 15\"";
