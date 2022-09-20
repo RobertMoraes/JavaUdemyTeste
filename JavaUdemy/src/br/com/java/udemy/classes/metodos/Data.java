@@ -24,7 +24,8 @@ public class Data {
 	}
 	
 	String formatacaoData() {
-		return String.format("%d/%d/%d", dia,mes,ano);
+		String formato = "%d/%d/%d";
+		return String.format(formato, dia,mes,ano);
 	}
 	
 	//NÃO É VIÁVEL
