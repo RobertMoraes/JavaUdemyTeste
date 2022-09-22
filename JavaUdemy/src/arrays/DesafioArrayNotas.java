@@ -27,7 +27,8 @@ public class DesafioArrayNotas {
 		
 		double media = soma / notas.length;
 		String resultado = String.format("%.2f", media);
-		System.out.printf("A média é ::: " + resultado);
+		System.out.printf("A média é ::: " + resultado
+				);
 		
 		entrada.close();
 	}
